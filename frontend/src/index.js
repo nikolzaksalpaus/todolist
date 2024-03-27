@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { Helmet } from 'react-helmet'
+    
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Helmet>
+        <title>Title</title>
+        <meta name="description" content="Description" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+    </Helmet>
     <App />
   </React.StrictMode>
 );
