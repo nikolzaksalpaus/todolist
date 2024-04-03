@@ -9,8 +9,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Helmet>
-        <title>Title</title>
-        <meta name="description" content="Description" />
+        <title>Todo list</title>
+        <meta name="description" content="This is my todo list app" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
     </Helmet>
     <App />
